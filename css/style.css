@@ -1,0 +1,109 @@
+body{
+    background-image: url("../images/backg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Navbar start */
+.link{
+    display: inline-block;
+}
+
+.nav-links{
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+.main{
+    height: 58px;
+}
+/* Navbar end */
+
+/* Accordian start */
+.accordion-button:not(.collapsed){
+    background-color: #2f2f2f;
+    color: #b6b6b6;
+}
+ .accordion-button{
+    background-color: #2f2f2f;
+    color: #b6b6b6;
+}
+.accordion-body{
+    background-color: #5f5f5f;
+    color: #b6b6b6;
+}
+.accordion-text{
+    color: #000;
+}
+/* Accordian end */
+
+/* Faq start */
+.txt-style2{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+.txt-heading{
+    text-align: center;
+    padding-top: 44px;
+}
+.text-item{
+    margin-left: 63px;
+}
+.accordion-button:not(.collapsed)::after{
+    transform: rotate(0deg);
+    /* margin-left: 0;  */
+}
+.accordion-button.collapsed::after{
+    transform: rotate(-90deg);
+    /* margin-left: 0; */
+}
+/* Faq end */
+
+
+
+/* form */
+h1{
+    size: 40px;
+    margin-left: 48%;
+    margin-top: 10%;
+    color: #3498db;
+}
+
+.fom {
+    width: 30%;
+   background-color: #d4d1d1;
+   border-radius: 5px;
+   padding: 20px;
+   margin-left:  35%;
+   
+}
+
+#fname, #lname, #country {
+    width: 100%;
+    padding: 14px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#submit {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #17751a;
+}
+
